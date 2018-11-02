@@ -12,11 +12,52 @@
     border-bottom: 2px solid #ccc
 }
 
+.container a {
+    text-decoration: none;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*general*/
 .container {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
     clear: both;
+}
+
+h1,
+h2,
+h3,
+p {
+margin-bottom: 20px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: tomato;
+}
+
+h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid lawngreen;
 }
 
 nav {
@@ -111,6 +152,11 @@ h3, .sidebar h2 {
     background: maroon;
     border-bottom: 0;
 }
+
+
+/*contact page*/
+
+
 /*footer*/
 footer {
     padding: 30px 0;
